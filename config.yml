@@ -1,11 +1,6 @@
 ---
-# This file contains the default rendering parameters
-# Play around and modify them to best fit your liking!
-
-
 # Misc
 
-# If true, most recent dates will be on top
 reverse_timeline: true
 
 # Fonts
@@ -18,13 +13,13 @@ fonts:
 
 canvas_background_color: '#ffffff'
 canvas_zoom: 5.0
-canvas_size_x: 600.0
+canvas_size_x: 700.0
 canvas_padding_bottom: 1
 
 # Timeline
 
 timeline_line_width: 0.264
-timeline_line_color: '#e5e5e5'
+timeline_line_color: '#D8DEE9'
 timeline_start_x: 15.875
 timeline_end_x: 42.33
 timeline_start_y: 3.0
@@ -36,7 +31,7 @@ month_line_start_y: 17.35
 month_height: 53.0
 month_text_start_x: 1.06
 month_text_font_size: 4.23
-month_text_color: '#666666'
+month_text_color: '#434C5E'
 month_text_font: Galdeano
 
 # Date
@@ -44,7 +39,7 @@ month_text_font: Galdeano
 date_text_line_spacing: 1.5
 date_text_font_size: 3.7
 date_text_start_y: 6.75
-date_text_color: '#808080'
+date_text_color: '#2E3440'
 date_text_anchor: 'end'
 date_text_font: Galdeano
 
@@ -53,7 +48,7 @@ date_finished_start_x: 41.09
 
 # Category
 
-category_default_color: '#bebdb8'
+category_default_color: '#2E3440'
 category_start_y: 5.54
 category_vertical_spacing: 4.48
 category_line_start_x: 69.21
@@ -62,7 +57,7 @@ category_line_width: 0.53
 category_tip_radius: 1.72
 
 category_text_font_size: 3.7
-category_text_color: '#4d4d4d'
+category_text_color: '#2E3440'
 category_text_padding: 3.2
 category_text_font: Galdeano
 
@@ -72,7 +67,7 @@ book_tip_radius: 1.72
 book_line_width: 0.53
 
 book_text_start_x: 46.0
-book_text_line_spacing: 1.1
+book_text_line_spacing: 0.8
 book_text_font: Galdeano
 book_title_font_size: 4.23
 book_author_font_size: 3.7

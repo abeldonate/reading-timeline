@@ -1,133 +1,300 @@
----
-# Take this example data set to build up your own!
-
-
-# Use this variables to limit the drawn books to a certain range
-#from: 2021-01-01
-#to: 2022-12-31
-
 categories:
-  - id: fantasy
-    name: Fantasy
-    color: '#ff5555'
-
-  - id: scifi
-    name: Sci-Fi
-    color: '#2a7fff'
-
-  - id: romance
-    name: Romance
-    color: '#ff1694'
-
-  - id: horror
-    name: Horror
-    color: '#ffd801'
-
-  - id: history
-    name: Historical
-    color: '#50fa7b'
+  - id: pol
+    name: Politics
+    color: '#BF616A'
+  - id: phi
+    name: Philosophy
+    color: '#5E81AC'
+  - id: mus
+    name: Music
+    color: '#D08770'
+  - id: his
+    name: History
+    color: '#EBCB8B'
+  - id: sci
+    name: Science
+    color: '#B48EAD'
 
 books:
-  - title: Guns, Germs, and Steel
-    author: Jared Diamond
+
+  - title: Afinación y temperamentos históricos
+    author: Goldáraz Gaínza 
+    started: 2020-07-07
+    finished: 2020-07-14
+    category: mus
+
+  - title: Atlas de la música I
+    author: Ulrich Michels 
+    started: 2020-07-14
+    finished: 2020-07-23
+    category: mus
+
+  - title: Atlas de la música II
+    author: Ulrich Michels 
+    started: 2020-07-23
+    finished: 2020-08-12
+    category: mus
+
+  - title: Momentos estelares de la humanidad
+    author: Stefan Zweig
+    started: 2020-08-13
+    finished: 2020-08-30
+    category: his
+
+  - title: La doctrina del shock
+    author: Naomi Klein
+    started: 2020-09-13
+    finished: 2020-12-31
+    category: pol
+
+  - title: Más allá del bien y el mal
+    author: Nietzsche
+    started: 2020-10-28
+    finished: 2020-10-30
+    category: phi
+
+  - title: El anticristo
+    author: Nietzsche
+    started: 2020-11-01
+    finished: 2020-11-05
+    category: phi
+
+  - title: El arte de tener razón
+    author: Schopenhauer
+    started: 2020-11-07
+    finished: 2020-11-13
+    category: phi
+
+  - title: Hegel, Marx, Nietzsche
+    author: Henri Lefebvre 
+    started: 2020-11-14
+    finished: 2020-12-16
+    category: phi
+
+  - title: Odio a los indiferentes
+    author: Antonio Gramsci
+    started: 2021-01-19
+    finished: 2021-01-22
+    category: pol
+
+  - title: Reforma o revolución
+    author: Rosa Luxemburgo
+    started: 2021-01-20
+    finished: 2021-01-28
+    category: pol
+
+  - title: El origen de la familia, la propiedad privada y el estado
+    author: Engels
+    started: 2021-02-02
+    finished: 2021-02-23
+    category: pol
+
+  - title: El fascismo
+    author: Stanley Payne
+    started: 2021-03-02
+    finished: 2021-03-17
+    category: his
+
+  - title: Grandes ideas de la ciencia
+    author: Isaac Asimov
+    started: 2021-04-01
+    finished: 2021-04-23
+    category: sci
+
+  - title: Breve historia de la química
+    author: Isaac Asimov
+    started: 2021-06-01
+    finished: 2021-07-13
+    category: sci
+
+  - title: La revolución en El Capital
+    author: Jesús Rodríguez Rojo
+    started: 2021-06-19
+    finished: 2021-07-03
+    category: pol
+
+  - title: Historia del PCE
+    author: Jose Luis Martín Ramos
+    started: 2021-08-05
+    finished: 2021-08-15
+    category: pol
+
+  - title: Das Kapital I
+    author: Karl Marx
+    started: 2021-09-05
+    finished: 2022-02-02
+    category: pol
+
+  - title: Manuscritos de economía y filosofía
+    author: Karl Marx
+    started: 2021-09-30
+    finished: 2021-10-05
+    category: pol
+
+  - title: Introducciones a la filosofía 
+    author: Samuel Cabanchik
+    started: 2021-09-13
+    finished: 2021-11-03
+    category: phi
+
+  - title: Heidegger y su tiempo 
+    author: Felipe Martínez de Marzoa
+    started: 2021-09-03
+    finished: 2021-10-14
+    category: phi
+
+  - title: Hölderlin y la lógica hegeliana
+    author: Felipe Martínez de Marzoa
+    started: 2021-11-25
+    finished: 2021-12-23
+    category: phi
+
+  - title: Keynesianism, monetarism a nd the crisis of the state 
+    author: Simon Clarke
+    started: 2021-12-20
+    finished: 2022-02-13
+    category: pol
+
+  - title: Marx, marginalism and modern sociology 
+    author: Simon Clarke 
     started: 2022-04-10
     finished: 2022-05-13
-    category: history
+    category: pol
 
-  # A book with an undefined category
-  - title: Modern Operating Systems
-    author: Andrew S. Tanenbaum
+  - title: Un marxismo para el siglo XXI  
+    author: ContraCultura
+    started: 2022-01-23
+    finished: 2022-02-06
+    category: pol
+
+  - title: La filosofía de El Capital
+    author: Felipe Martínez Marzoa
     started: 2022-04-23
-    finished: 2022-05-01
-    category: programming
+    finished: 2022-05-02
+    category: phi
 
-  - title: 1984
-    author: George Orwell
+  - title: Las falsas alternativas
+    author: Ani Pérez 
     started: 2022-05-02
     finished: 2022-05-07
-    category: scifi
+    category: pol
 
-  - title: The Fault in Our Stars
-    author: John Green
+  - title: La ideología anarquista
+    author: Angel J. Cappelletti
     started: 2022-06-25
     finished: 2022-06-26
-    category: romance
+    category: pol
 
-  - title: The Call of Cthulhu
-    author: H. P. Lovecraft
+  - title: El miedo a la libertad
+    author: Erich Fromm 
     started: 2022-05-23
     finished: 2022-06-12
-    category: horror
+    category: pol
 
-  - title: Caliban
-    author: Roger MacBride Allen
+  - title: Estado y Revolución
+    author: Lenin
     started: 2022-07-02
     finished: 2022-07-06
-    category: scifi
+    category: pol
 
-  - title: Mistborn
-    author: Brandon Sanderson
+  - title: El arte de amar
+    author: Fromm
     started: 2022-07-07
     finished: 2022-07-13
-    category: fantasy
+    category: phi
 
-  - title: Fahrenheit 451
-    author: Ray Bradbury
+  - title: Lectura de Marcuse
+    author: Castellet
     started: 2022-07-17
     finished: 2022-07-19
-    category: scifi
+    category: pol
 
-  - title: Dracula
-    author: Bram Stoker
+  - title: Kant
+    author: Ferrari
     started: 2022-07-20
     finished: 2022-07-26
-    category: horror
+    category: phi
 
-  - title: Wuthering Heights
-    author: Emily Brontë
+  - title: El electrón es zurdo
+    author: Isaac Asimov
     started: 2022-07-29
     finished: 2022-08-01
-    category: romance
+    category: phi
 
-  - title: Frankenstein
-    author: Mary Shelley
-    started: 2022-07-23
-    finished: 2022-08-07
-    category: horror
+  - title: Del contrato social
+    author: Rousseau
+    started: 2022-07-19
+    finished: 2022-08-06
+    category: phi
 
-  - title: The History of the Ancient World
-    author: Susan Wise Bauer
+  - title: La Comuna
+    author: Ollivier
     started: 2022-08-03
-    finished: 2022-08-16
-    category: history
+    finished: 2022-08-19
+    category: pol
 
-  # In case of tip collision, the last to appear is drawn on top
-  - title: The Fellowship of the Ring
-    author: J. R. R. Tolkien
+  - title: Das Kapital II
+    author: Marx
     started: 2022-08-04
-    finished: 2022-09-03
-    category: fantasy
-
-  - title: The Shining
-    author: Stephen King
+    finished: 2022-09-02
+    category: pol
+    
+  - title: Hot Money
+    author: Naomi Klein
     started: 2022-08-20
-    finished: 2022-08-22
-    category: horror
+    finished: 2022-08-23
+    category: pol
 
-  - title: Pride and Prejudice
-    author: Jane Austen
+  - title: What is existentialism?
+    author: Simone de Beavoure
     started: 2022-08-23
     finished: 2022-08-28
-    category: romance
+    category: phi
 
-  # A book with no category
-  - title: J.R.R. Tolkien. A Biography
-    author: Humphrey Carpenter
+  - title: La prostitución y las formas de combatirla
+    author: Aleksandra Kollontai
     started: 2022-09-07
-    finished: 2022-09-10
+    finished: 2022-09-07
+    category: phi
 
-  - title: The Hitchhiker's Guide to the Galaxy
-    author: Douglas Adams
+  - title: The way to wealth
+    author: Benjamin Franklin
     started: 2022-09-12
-    finished: 2022-09-16
-    category: scifi
+    finished: 2022-09-12
+    category: phi
+
+  - title: In praise of Mathematics
+    author: Alain Badiou
+    started: 2022-09-17
+    finished: 2022-09-19
+    category: phi
+
+  - title: Sapiens
+    author: Yuval Noah
+    started: 2022-09-12
+    finished: 2022-10-01
+    category: sci
+
+  - title: Ensayos sobre la teoría marxista del valor
+    author: Isaak Rubin
+    started: 2022-10-01
+    finished: 2022-10-25
+    category: pol
+
+  - title: La ideología alemana
+    author: Karl Marx
+    started: 2022-10-15
+    finished: 2022-10-21
+    category: phi
+
+  - title: El debate soviético sobre el valor
+    author: Varios autores 
+    started: 2022-11-04
+    finished: 2022-11-18
+    category: pol
+
+#  - title: Guns, germs and steel
+#    author: Jared Diamond
+#    started: 2022-11-12
+#    finished: 2022-11-23
+#    category: pol
